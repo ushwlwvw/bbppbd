@@ -45,7 +45,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await fifthon(JoinChannelRequest("@fifthon"))
+        await fifthon(JoinChannelRequest("@aaaalqp"))
     except BaseException:
         pass
 
@@ -108,7 +108,7 @@ async def _(event):
 ☆ Ping : `{ms}`
 ☆ Date : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ Source  : @l99lii**
+☆ Source  : @H_M_Dr**
 ''')
 
 
@@ -141,14 +141,14 @@ ownerhson_id = 2126184372
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا جمال @E_T_4')
+        order = await event.reply('اهلا جمال @H_M_Dr')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
+    await event.edit("• جارِ اعادة تشغيل السورس الخليفه..\n• انتضر 1-2 دقيقة  .")
     await fifthon.disconnect()
-    await fifthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
+    await fifthon.send_message("me", "`اكتملت اعادة تشغيل السورس الخليفه 🤍 !`")
 
 
 print("- fifthon Userbot Running ..")
